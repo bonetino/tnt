@@ -2,7 +2,7 @@
 TITLE: TNT Group theme developed Website: http://insideo.co/
 
 
-CREDITS:
+CREDITS: Sinisa Botic 
 
 Bootstrap
 http://getbootstrap.com/
