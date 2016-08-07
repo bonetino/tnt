@@ -41,9 +41,16 @@ p,
 ul,
 ol {
   margin-bottom: 1.5em;
-  font-size: 20px;
+  font-size: 18px;
   color: #848484;
   font-family: "Source Sans Pro", Arial, sans-serif;
+}
+.block-text {
+  margin-top: 50px;
+}
+.block-text h1 {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 h1,
@@ -62,6 +69,38 @@ h6 {
   background-image: url("../images/about.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+.footer-social {
+    float: left;
+    padding: 5px 18.5px;
+    color: #FFF;
+    background: #252f36 none repeat scroll 0% 0%;
+    position: absolute;
+    margin-top: -15px;
+}
+.footer-social::after {
+    border-right: 9px solid #777;
+    border-top: 16px solid transparent;
+    content: "";
+    display: block;
+    height: 0px;
+    left: -9px;
+    position: absolute;
+    top: 0px;
+}
+.footer-social label {
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 10px;
+    color: white;
+}
+.footer-social a {
+    margin-right: 3px;
+    text-decoration: none;
+}
+.store span {
+  color: white;
 }
 
 .destinations-form {
@@ -189,12 +228,15 @@ h6 {
 #foot a {
   color: #fff;
 }
+.marge img {
+  width: 100%;
+  height: auto;
+}
 
 .onama-top {}
 
 .onama-top p {
-  font-size: 1.8rem;
-  font-family: "Raleway", sans-serif;
+  font-size: 18px;
 }
 
 .desno {
