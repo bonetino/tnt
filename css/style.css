@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,800);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -49,7 +50,18 @@ ol {
   margin-top: 50px;
 }
 .block-text h1 {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.imagem img {
+  margin-right: 10px;
+}
+.text-naslov {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
   text-transform: uppercase;
 }
 
@@ -69,6 +81,10 @@ h6 {
   background-image: url("../images/about.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+.imagem img {
+  position: relative;
+  top: -5px;
 }
 .footer-social {
     float: left;
@@ -100,6 +116,8 @@ h6 {
     text-decoration: none;
 }
 .store span {
+  position: relative;
+  top:5px;
   color: white;
 }
 
@@ -601,7 +619,14 @@ h6 {
   content: url("../images/strelica.png");
 }
 
-#naslov-emisije {
+#naslov-emisije-lijevo {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+#naslov-emisije-desno {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-family: 'Dosis', sans-serif;
@@ -1385,6 +1410,9 @@ figure {
   .fh5co-grid {
     height: 400px;
   }
+  .only-text h2 {
+    font-size: 1.4em;
+  }
   .fh5co-cover, .fh5co-hero {
     height: 560px;
     max-width: 100%
@@ -1414,16 +1442,22 @@ figure {
     left: 50%;
     bottom: 10px
   }
-  #naslov-emisije {
+  #naslov-emisije-lijevo {
+    position: relative;
+    font-size: 10px;
+  }
+  #naslov-emisije-desno {
+    position: relative;
     font-size: 10px;
   }
   .trenutno {
     position: absolute;
     font-size: 10px;
+    top: -20px;
   }
   #player-container {
     background-image: url("../images/radio-small.svg");
-    padding: 85px 0 15px 0;
+    padding: 135px 0 15px 0;
   }
   .destinations-form {
     position: relative;
@@ -1554,6 +1588,9 @@ figure {
 @media screen and (max-width: 768px) {
   #fh5co-services .fh5co-icon i {
     font-size: 100px;
+  }
+  .imagem img {
+    margin-top: 30px;
   }
 }
 
