@@ -278,3 +278,24 @@ $(document).ready(function(){
         $('.target').html(elem);
     });
 });
+
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 240) {
+        $(".clearHeader").addClass("darkHeader");
+    } else {
+        $(".clearHeader").removeClass("darkHeader");
+    }
+});
+
+function startPlayer()
+{
+	var day = new Date();
+	var id = day.getTime();
+	var url = 'radio/player.php';
+	window.open(url,id,'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=848,height=581');	
+}
+
+
+

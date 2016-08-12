@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -53,54 +52,12 @@
 
 	</head>
 	<body>
-		<div id="fh5co-wrapper">
-		<div id="fh5co-page">
-		<div id="fh5co-header">
-			<header id="fh5co-header-section">
-				<div class="container">
-					<div class="nav-header">
-						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-						<h1 id="brand-logo"><a href="index.html"><img src="images/logo.svg"></a></h1>
-							<nav id="fh5co-menu-wrap" role="navigation">
-							<ul class="sf-menu" id="fh5co-primary-menu">
-								<li class="active"><a href="index.html">Home</a></li>								
-								<li><a href="#">O nama</a></li>
-								<li><a href="#">Oglašavanje</a></li>		
-								<li><a href="#">Program</a></li>
-								<li><a href="#">Osvoji</a></li>
-								<li><a href="kontakt.html">Kontakt</a></li>
-								<li>
-									<a href="#" class="top-online red" type="button">Slušaj online</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</header>
-			
-		</div>
+		<?php include "inc/header_short.php";?>
 		
 
-		<div class="fh5co-hero fh5co-hero-2">
-			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5">
-					<div class="container">
-						<div class="only-text animate-box">
-								<h2>Trebate produkciju videa ili spota?</h2>
-								<span>Imate mogućnost odabrati što ćemo puštati. Zatražite pjesmu, ocijenite je i pomozite svom favoritu da bude na vrhu top liste</span>
-								<form class="destinations-form">
-			            <div class="input-line">
-			              <input type="text" name="destination" value="" class="form-input check-value" placeholder="Koju pjesmu želite čuti?" />
-			              <button type="button" name="destination-submit" class="form-submit btn btn-special">Pošalji</button>
-			            </div>
-          			</form>
-						</div>
-				</div>
-			</div>
-		</div>
-		<!-- end:header-top -->
 		<div id="fh5co-services">
 			<div class="container">
-				
+				<h3>Program radija</h3>
 				<ul class="nav nav-tabs" role="tablist">
 			    <li role="presentation" class="active"><a href="#ponedjeljak" aria-controls="home" role="tab" data-toggle="tab">Ponedjeljak</a></li>
 			    <li role="presentation"><a href="#utorak" aria-controls="profile" role="tab" data-toggle="tab">Utorak</a></li>
@@ -114,20 +71,151 @@
 			  <div class="tab-content">
 			    <div role="tabpanel" class="tab-pane fade in active" id="ponedjeljak">
 			    	<div class="program">
-			    		<div class="naslov">
+			    		<div class="dandatum">
 			    			<h3>Ponedjeljak</h3>
-			    			<span>$datum()</span>
-			    		</div>
+			    			<span>24.7.2016</span>
+			    		</div>	
+			    			<div class="col-md-4 col-xs-12">
+			    				<li>06:00 <span><a href="#m1">Jutarnji show uz Davora Đerbeza</a></span></li>
+				    			<li>11:00 <span><a href="#m2">Prijepodne uz Esada Durmiševića</a></span></li>
+				    			<li>13:00 <span><a href="#m3">Najbolji muzički mix</a></span></li>
+				    			<li>14:20 <span><a href="#m4">Travnik u sat vremena</a></span></li>
+				    			<li>16:00 <span><a href="#m5">Najbolji muzički mix</a></span></li>
+				    			<li>16:30 <span><a href="#m6">Proljeće se budi</a></span></li>
+				    			<li>20:00 <span><a href="#m7">Proljeće se budi</a></span></li>
+				    			<li>00:00 <span><a href="#m8">Proljeće se budi</a></span></li>
+			    			</div>
+			    			<div class="col-md-8 col-xs-12">
+			    					<div class="target"></div>
+
+			    					<div id="m1">Traženje papuča kraj kreveta, polusneno kuhanje kave, spremanje za posao i vožnju po gradu, svakog radnog dana obavljate s nama! Odličnu mjuzu,  aktualnosti, zabavu i teme o kojima se toga dana isplati pričati za vas ćemo otvoriti svako jutro od 6 do 11 na TNT radiju!</div>
+										<div id="m2">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </div>
+										<div id="m3">
+										But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+										</div>
+										<div id="m4">
+											the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find
+										</div>
+										<div id="m5">
+											Nor the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find
+										</div>
+										<div id="m6">asdasdad</div>
+										<div id="m7">asdasda</div>
+										<div id="m8">dasdasd</div>
+										<div id="m9">dasdasdsgaswa</div>
+			    			</div>
 			    	</div>
 			    </div>
 			    <div role="tabpanel" class="tab-pane fade" id="utorak">
-			    	Ovo je utorak
+			    	<div class="program">
+			    		<div class="dandatum">
+			    			<h3>Utorak</h3>
+			    			<span>25.7.2016</span>
+			    		</div>	
+			    			<div class="col-md-4 col-xs-12">
+			    				<li>06:00 <span><a href="#m1">Jutarnji show uz Davora Đerbeza</a></span></li>
+				    			<li>11:00 <span><a href="#m2">Prijepodne uz Esada Durmiševića</a></span></li>
+				    			<li>13:00 <span><a href="#m3">Najbolji muzički mix</a></span></li>
+				    			<li>14:20 <span><a href="#m4">Travnik u sat vremena</a></span></li>
+				    			<li>16:00 <span><a href="#m5">Najbolji muzički mix</a></span></li>
+				    			<li>16:30 <span><a href="#m6">Proljeće se budi</a></span></li>
+				    			<li>20:00 <span><a href="#m7">Proljeće se budi</a></span></li>
+				    			<li>00:00 <span><a href="#m8">Proljeće se budi</a></span></li>
+			    			</div>
+			    			<div class="col-md-8 col-xs-12">
+			    					<div class="target"></div>
+
+			    					<div id="m1">Traženje papuča kraj kreveta, polusneno kuhanje kave, spremanje za posao i vožnju po gradu, svakog radnog dana obavljate s nama! Odličnu mjuzu,  aktualnosti, zabavu i teme o kojima se toga dana isplati pričati za vas ćemo otvoriti svako jutro od 6 do 11 na TNT radiju!</div>
+										<div id="m2">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </div>
+										<div id="m3">
+										But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+										</div>
+										<div id="m4">
+											the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find
+										</div>
+										<div id="m5">
+											Nor the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find
+										</div>
+										<div id="m6">asdasdad</div>
+										<div id="m7">asdasda</div>
+										<div id="m8">dasdasd</div>
+										<div id="m9">dasdasdsgaswa</div>
+			    			</div>
+			    	</div>
 			    </div>
 			    <div role="tabpanel" class="tab-pane fade" id="srijeda">
-			    	Ovo je srijeda
+			    	<div class="program">
+			    		<div class="dandatum">
+			    			<h3>Srijeda</h3>
+			    			<span>26.7.2016</span>
+			    		</div>	
+			    			<div class="col-md-4 col-xs-12">
+			    				<li>06:00 <span><a href="#m1">Jutarnji show uz Davora Đerbeza</a></span></li>
+				    			<li>11:00 <span><a href="#m2">Prijepodne uz Esada Durmiševića</a></span></li>
+				    			<li>13:00 <span><a href="#m3">Najbolji muzički mix</a></span></li>
+				    			<li>14:20 <span><a href="#m4">Travnik u sat vremena</a></span></li>
+				    			<li>16:00 <span><a href="#m5">Najbolji muzički mix</a></span></li>
+				    			<li>16:30 <span><a href="#m6">Proljeće se budi</a></span></li>
+				    			<li>20:00 <span><a href="#m7">Proljeće se budi</a></span></li>
+				    			<li>00:00 <span><a href="#m8">Proljeće se budi</a></span></li>
+			    			</div>
+			    			<div class="col-md-8 col-xs-12">
+			    					<div class="target"></div>
+
+			    					<div id="m1">Traženje papuča kraj kreveta, polusneno kuhanje kave, spremanje za posao i vožnju po gradu, svakog radnog dana obavljate s nama! Odličnu mjuzu,  aktualnosti, zabavu i teme o kojima se toga dana isplati pričati za vas ćemo otvoriti svako jutro od 6 do 11 na TNT radiju!</div>
+										<div id="m2">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </div>
+										<div id="m3">
+										But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+										</div>
+										<div id="m4">
+											the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find
+										</div>
+										<div id="m5">
+											Nor the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find
+										</div>
+										<div id="m6">asdasdad</div>
+										<div id="m7">asdasda</div>
+										<div id="m8">dasdasd</div>
+										<div id="m9">dasdasdsgaswa</div>
+			    			</div>
+			    	</div>
 			    </div>
 			    <div role="tabpanel" class="tab-pane fade" id="cetvrtak">
-			    	Ovo je cetvrtak
+			    	<div class="program">
+			    		<div class="dandatum">
+			    			<h3>Četvrtak</h3>
+			    			<span>27.7.2016</span>
+			    		</div>	
+			    			<div class="col-md-4 col-xs-12">
+			    				<li>06:00 <span><a href="#m1">Jutarnji show uz Davora Đerbeza</a></span></li>
+				    			<li>11:00 <span><a href="#m2">Prijepodne uz Esada Durmiševića</a></span></li>
+				    			<li>13:00 <span><a href="#m3">Najbolji muzički mix</a></span></li>
+				    			<li>14:20 <span><a href="#m4">Travnik u sat vremena</a></span></li>
+				    			<li>16:00 <span><a href="#m5">Najbolji muzički mix</a></span></li>
+				    			<li>16:30 <span><a href="#m6">Proljeće se budi</a></span></li>
+				    			<li>20:00 <span><a href="#m7">Proljeće se budi</a></span></li>
+				    			<li>00:00 <span><a href="#m8">Proljeće se budi</a></span></li>
+			    			</div>
+			    			<div class="col-md-8 col-xs-12">
+			    					<div class="target"></div>
+
+			    					<div id="m1">Traženje papuča kraj kreveta, polusneno kuhanje kave, spremanje za posao i vožnju po gradu, svakog radnog dana obavljate s nama! Odličnu mjuzu,  aktualnosti, zabavu i teme o kojima se toga dana isplati pričati za vas ćemo otvoriti svako jutro od 6 do 11 na TNT radiju!</div>
+										<div id="m2">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. </div>
+										<div id="m3">
+										But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+										</div>
+										<div id="m4">
+											the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find
+										</div>
+										<div id="m5">
+											Nor the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find
+										</div>
+										<div id="m6">asdasdad</div>
+										<div id="m7">asdasda</div>
+										<div id="m8">dasdasd</div>
+										<div id="m9">dasdasdsgaswa</div>
+			    			</div>
+			    	</div>
 			    </div>
 			    <div role="tabpanel" class="tab-pane fade" id="petak">
 			    	Ovo je petak
@@ -217,5 +305,7 @@
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
+
 	</body>
 </html>
+

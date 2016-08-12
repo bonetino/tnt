@@ -58,6 +58,71 @@ ol {
 .imagem img {
   margin-right: 10px;
 }
+.space {
+  margin-top: 200px
+}
+.trenutno {
+  color: #fff;
+  font-size: 13px;
+}
+
+.about-header-section {
+    background-color: #444;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+.clearHeader {
+  background: url("../images/top_pozadina.jpg") no-repeat;
+  background-size: cover;
+  position:relative;
+  top:0;
+  left:0;
+  width:100%;
+  
+  -webkit-transition: background 2s; /* For Safari 3.1 to 6.0 */
+  transition: background 2s;
+}
+
+.clearHeader.darkHeader {
+ background:#222831;
+}
+.darkHeader {
+  position: fixed;
+}
+.fixed-top {
+  position: fixed!important;
+  top: 0
+}
+.about-us-photo {
+  position: relative;
+  margin-top: 2em;
+}
+.about-us-photo img {
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+}
+.about-us-desc {
+  padding-top: 150px;
+  margin-bottom: 24em;
+}
+.about-us-desc img {
+  width: 100%;
+  height: auto;
+}
+#about-naslov h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    color: #5a5a5a;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 400;
+}
 .text-naslov {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
@@ -81,6 +146,11 @@ h6 {
   background-image: url("../images/about.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+.eterartist {
+  z-index: 100;
+  width: 100px;
+  height: 40px
 }
 .imagem img {
   position: relative;
@@ -606,7 +676,6 @@ h6 {
   position: relative;
   top: 10px;
   display: inline-block;
-  font: 300 17px/1em "Open Sans";
   margin-bottom: 4px;
   color: white;
 }
@@ -880,7 +949,7 @@ figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-cover, .fh5co-hero {
-    height: 870px;
+    height: 100vh;
     max-width: 100%
   }
   .fh5co-cover {
@@ -900,7 +969,7 @@ figure {
 
 .fh5co-cover.fh5co-hero-2,
 .fh5co-hero.fh5co-hero-2 {
-  height: 710px;
+  height: 100vh;
 }
 
 .fh5co-cover.fh5co-hero-2 .fh5co-overlay,
@@ -1414,7 +1483,7 @@ figure {
     font-size: 1.4em;
   }
   .fh5co-cover, .fh5co-hero {
-    height: 560px;
+    height: 100vh;
     max-width: 100%
   }
   #slika-emisije {
@@ -1530,9 +1599,11 @@ figure {
 }
 
 #fh5co-services,
-#fh5co-about,
 #fh5co-contact {
   padding: 7em 0;
+}
+#about {
+  padding: 10em;
 }
 
 @media screen and (max-width: 768px) {
@@ -2200,7 +2271,7 @@ figure {
 @media (min-width: 1200px) {
   .fh5co-hero {
   position: relative;
-  height: 710px;
+  height: 100vh;
 }
 }
 
