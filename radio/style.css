@@ -1,0 +1,225 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.popup_back {
+	background:url(images/popupback_jw.png) no-repeat;
+}
+#player {
+	position:absolute;
+	top:182px;
+	left:350px;
+	width:330px;
+	height:380px;
+	padding:0px;
+	margin:0px;
+}
+.link {
+	position:absolute;
+	top:131px;
+	left:6px;
+	width:120px;
+	height:30px;
+	padding:0px;
+	margin:0px;
+}
+.link > a {
+	position:absolute;
+	display:block;
+	top:0px;
+	left:0px;
+	width:120px;
+	height:30px;
+	padding:0px;
+	margin:0px;
+}
+.eterartist {
+	font-family:Arial;
+	font-size:13px;
+	color:#000000;
+	position:absolute;
+	top:353px;
+	left:55px;
+	font-weight:bold;
+}
+.etersong {
+	font-family:Arial;
+	font-size:11px;
+	color:#000000;
+	position:absolute;
+	top:367px;
+	left:55px;
+	font-weight:bold;
+}
+.eterul, .eterli {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+.eterulpos {
+	position:absolute;
+	top:430px;
+	left:38px;
+	width:240px;
+}
+.eterlipos {
+	border-top:1px dotted #666666;
+	font-size:10px;
+	color:#666666;
+	font-weight:bold;
+	font-family:Arial;
+	height:20px;
+	padding-top:5px;
+}
+.eterslikapos {
+	position:absolute;
+	top:192px;
+	left:203px;
+}
+.eterslika {
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+}
+.eteremisijatime {
+	font-family:Arial;
+	font-size:11px;
+	color:#FF0000;
+	position:absolute;
+	top:208px;
+	left:35px;
+	font-weight:bold;
+}
+.eteremisija {
+	font-family:Arial;
+	font-size:13px;
+	color:#000000;
+	position:absolute;
+	top:221px;
+	left:35px;
+	width:155px;
+	height:35px;
+	overflow:hidden;
+	font-weight:bold;
+}
+.eterimagepos {
+	position:absolute;
+	top:332px;
+	left:203px;
+}
+.ocjena {
+	position:absolute;
+	top:395px;
+	left:38px;
+	height:23px;
+	width:129px;
+	overflow:hidden;
+	background:url(oceni.png) no-repeat;
+	display:none;
+}
+.zvijezda1 {
+	position:absolute;
+	top:5px;
+	left:50px;
+	height:12px;
+	width:15px;
+	background:url(zvezdica0.png) no-repeat;
+}
+.zvijezda2 {
+	position:absolute;
+	top:5px;
+	left:65px;
+	height:12px;
+	width:15px;
+	background:url(zvezdica0.png) no-repeat;
+}
+.zvijezda3 {
+	position:absolute;
+	top:5px;
+	left:80px;
+	height:12px;
+	width:15px;
+	background:url(zvezdica0.png) no-repeat;
+}
+.zvijezda4 {
+	position:absolute;
+	top:5px;
+	left:95px;
+	height:12px;
+	width:15px;
+	background:url(zvezdica0.png) no-repeat;
+}
+.zvijezda5 {
+	position:absolute;
+	top:5px;
+	left:110px;
+	height:12px;
+	width:15px;
+	background:url(zvezdica0.png) no-repeat;
+}
+.zvijezda {
+	cursor:pointer;
+}
+.zvijezda_act {
+	background:url(zvezdica1.png) no-repeat;
+}
+#login {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	position:absolute;
+	top:350px;
+	left:360px;
+	width:300px;
+	text-align:center;
+}
+#username {
+	border:1px solid #000;
+	font-size:12px;
+	width:150px;
+}
+#chatlogin {
+	border:1px solid #000;
+	font-size:12px;
+	background-color:#C30;
+	color:#FFF;
+	font-weight:bold
+}
+#write {
+	border:1px solid #000;
+	font-size:12px;
+	width:230px;
+}
+#writedata {
+	border:1px solid #000;
+	font-size:12px;
+	background-color:#C30;
+	color:#FFF;
+	font-weight:bold
+}
+.chatWrite {
+	position:absolute;
+	top:523px;
+	left:355px;
+	width:300px;
+	display:none;
+}
+#chat {
+	position:absolute;
+	top:210px;
+	left:350px;
+	width:320px;
+	height:340px;
+}
+.chatli {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:2px;
+}
+.lista {
+	background:#F2F2F2;
+}
+.listb {
+	background:#FFF;
+}

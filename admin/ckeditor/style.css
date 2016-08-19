@@ -1,0 +1,32 @@
+a:link {
+	color: #363334;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #363334;
+}
+a:hover {
+	text-decoration: none;
+	color: #DA2E08;
+}
+a:active {
+	text-decoration: none;
+	color: #DA2E08;
+}
+hr {
+	border:none;
+	border-top:1px solid #000;
+}
+.title {
+	font-size:24px;
+	background:#FFF;
+	font-weight:bold;
+	padding:10px;
+}
+.list_even {
+	background:#F5F5F5;
+}
+.list_odd {
+	background:#FFFFFF;
+}
