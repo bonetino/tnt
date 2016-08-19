@@ -57,7 +57,7 @@
 
 		<div id="fh5co-services">
 			<div class="container">
-				<h3>Program radija</h3>
+				<h1>Program radija</h1>
 				<ul class="nav nav-tabs" role="tablist">
 			    <li role="presentation" class="active"><a href="#ponedjeljak" aria-controls="home" role="tab" data-toggle="tab">Ponedjeljak</a></li>
 			    <li role="presentation"><a href="#utorak" aria-controls="profile" role="tab" data-toggle="tab">Utorak</a></li>

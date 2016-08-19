@@ -158,7 +158,7 @@ h6 {
 }
 .footer-social {
     float: left;
-    padding: 5px 18.5px;
+    padding: 5px 28.5px;
     color: #FFF;
     background: #252f36 none repeat scroll 0% 0%;
     position: absolute;
@@ -312,9 +312,26 @@ h6 {
   vertical-align: middle;
   margin-right: 10px;
 }
+#fh5co-services h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #5a5a5a;
+}
+.about-us-desc h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #5a5a5a;
+}
 
 #foot a {
   color: #fff;
+}
+ol,ul {
+  list-style-type: none;
 }
 .marge img {
   width: 100%;
@@ -539,9 +556,23 @@ h6 {
 #fh5co-contact .contact-info li {
   font-size: 16px
 }
+#kontakt-form-head h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #5a5a5a;
+}
 .foot-podaci {
+  border-radius: 5px;
+  padding: 50px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   list-style-type: none;
   margin: 50px 0 
+}
+.container-name {
+  margin-top: 35px;
+  margin-left: 20px;
 }
 
 .foot-podaci i {

@@ -92,10 +92,9 @@
 								<form class="destinations-form">
 			            <div class="input-line">
 			              <input type="text" name="song" value="song" id="song" class="form-input check-value" placeholder="Naruči pjesmu" />
-			              <button type="button" name="destination-submit" class="form-submit btn btn-special" onclick="submitEmail();">Pošalji</button>
+			              <button type="button" name="destination-submit" class="form-submit btn btn-special">Pošalji</button>
 			            </div>
           			</form>
-          			<div id="submissionResponse"></div>
 						</div>
 				</div>
 			</div>
@@ -117,8 +116,6 @@
               Trenutno
             </span>
             <div class="trenutno">
-            <!--<?php //echo "$now_artist";?><br>-->
-  					<!--<?php //echo "$res";?>-->
   					Nedjeljom popodne
             </div>
           </div>
@@ -134,8 +131,7 @@
             <div class="trenutno-svira-box">
               <a href="#"><img class="play" src="images/play-button.svg"></a>
               <div class="naslov-pjesme trenutno">
-                <span><!--<?php //echo "$now_song";?></span><br>
-                <?php //echo "$now_artist";?></br>-->
+                <span>
                 Edo Maajka<br>
                 Znaš me
               </div>
@@ -311,6 +307,8 @@
 				</div>
 			</div>
 		</div>
+
+		
 		<!-- fh5co-services-section -->
 		<div id="fh5co-content-section">
 			<div class="container">
@@ -397,9 +395,7 @@
 
 	</div>
 	
-	
-
-	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-2.1.4.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
@@ -415,6 +411,7 @@
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 	<script src="js/get_data.js"></script>
+	
 
 	</body>
 </html>

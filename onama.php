@@ -41,6 +41,8 @@
 
 	<link rel="stylesheet" href="css/style.css">
 
+	<link rel="stylesheet" href="css/timeline.css">
+
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 
 
@@ -78,7 +80,7 @@
 		
 		<div class="container">
 			<div class="about-us-desc" id="about-naslov">
-				<h3>O nama ukratko</h3>
+				<h1>O nama ukratko</h1>
 					<div class="col-md-6 col-xs-12">
 						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 					</div>
@@ -89,71 +91,92 @@
 		</div>
 		
 			<!-- fh5co-content-section -->
-		<div id="fh5co-services-section about">
-			
-			<div class="container space">
-				<div class="row text-center">
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-browser"></i></span>
-							<h3>Prfeionalno snimanje</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-mobile"></i></span>
-							<h3>Montaža</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-tools"></i></span>
-							<h3>Izrada reklama</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-video"></i></span>
-							<h3>Video uređenje</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-search"></i></span>
-							<h3>Nesto trece</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="services animate-box">
-							<span><i class="icon-cloud"></i></span>
-							<h3>Nesto cetvrto</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		
-		<div id="fh5co-content-section" class="fh5co-section-gray">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h3>Neki tekst naslov</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.</p>
-					</div>
-				</div>
-			</div>
 			
-		</div>
+			
+		
+	<section class="cd-horizontal-timeline animate-box">
+	<div class="timeline">
+		<div class="events-wrapper">
+			<div class="events">
+				<ol>
+					<li><a href="#0" data-date="16/01/2016" class="selected">16 Jan</a></li>
+					<li><a href="#0" data-date="28/02/2016">28 Feb</a></li>
+					<li><a href="#0" data-date="20/04/2016">20 Mar</a></li>
+					<li><a href="#0" data-date="20/05/2016">20 May</a></li>
+					<li><a href="#0" data-date="09/07/2016">09 Jul</a></li>
+					<li><a href="#0" data-date="30/08/2016">30 Aug</a></li>
+				</ol>
+
+				<span class="filling-line" aria-hidden="true"></span>
+			</div> <!-- .events -->
+		</div> <!-- .events-wrapper -->
+			
+		<ul class="cd-timeline-navigation">
+			<li><a href="#0" class="prev inactive">Prev</a></li>
+			<li><a href="#0" class="next">Next</a></li>
+		</ul> <!-- .cd-timeline-navigation -->
+	</div> <!-- .timeline -->
+
+	<div class="events-content">
+		<ol>
+			<li class="selected" data-date="16/01/2016">
+				<h2>Horizontal Timeline</h2>
+				<em>January 16th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="28/02/2016">
+				<h2>Event title here</h2>
+				<em>February 28th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="20/04/2016">
+				<h2>Event title here</h2>
+				<em>March 20th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="20/05/2016">
+				<h2>Event title here</h2>
+				<em>May 20th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="09/07/2016">
+				<h2>Event title here</h2>
+				<em>July 9th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="30/08/2016">
+				<h2>Event title here</h2>
+				<em>August 30th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			
+		</ol>
+	</div> <!-- .events-content -->
+</section>
+
 		
 	<?php include "inc/footer.php";?>
 
-	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-2.1.4.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
@@ -168,6 +191,7 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+	<script src="js/jquery.mobile.custom.min.js"></script>
 
 	</body>
 </html>

@@ -54,7 +54,13 @@
 		<?php include "inc/header_short.php";?>
 		
 		<div id="fh5co-contact" class="animate-box">
+		
 			<div class="container">
+
+			<div id="kontakt-form-head">
+				<h1>Kontakt</h1>
+			</div>
+
 				<form action="#">
 					<div class="row">
 						<div class="col-md-6">
@@ -66,15 +72,15 @@
 								+387 62 889 889
 								tnt@tnt.ba</li>
 								<li><i class="icon-phone2"></i>Redakcija:
-									T: +387 30 540 685</li>
+								+387 30 540 685</li>
 								<li><i class="icon-phone2"></i>Studio:
-								T: +387 30 540 686
-								T: +387 30 540 687
+								+387 30 540 686
+								+387 30 540 687
 								SMS: 091 41 07 01 (Cijena poruke 0,59 KM)</li>
 								<li><i class="icon-phone2"></i>Administracija:
-								T: +387 30 510 260
-								T: +387 30 510 261
-								F: +387 30 510 262</li>
+								+387 30 510 260
+								+387 30 510 261
+								+387 30 510 262</li>
 								
 							</ul>
 						</div>
@@ -107,12 +113,13 @@
 				</form>
 				<div class="col-md-12">
 					<div class="foot-podaci">
-						<li><i class="icon-info"></i>Pdv broj: 236013970007 | 
-Statistički matični broj: 09001550 | 
-ID broj: 4236013970007 | Šifra djelatnosti: 92.200 |
-RJ.BR: 1 – 1753 KOD SBK SUDA U TRAVNIKU |
-Žiro račun: 199 052 000 655 2929 SPARKASSE BANK DD Sarajevo Poslovnica Travnik |
-Member of tntgroup </li>
+						<li>
+						Pdv broj: 236013970007<br> 
+						Statistički matični broj: 09001550<br> 
+						ID broj: 4236013970007 | Šifra djelatnosti: 92.200<br>
+						RJ.BR: 1 – 1753 KOD SBK SUDA U TRAVNIKU<br>
+						Žiro račun: 199 052 000 655 2929 SPARKASSE BANK DD Sarajevo Poslovnica Travnik<br>
+						Member of tntgroup </li>
 					</div>
 				</div>
 			</div>
