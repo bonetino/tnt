@@ -1,4 +1,4 @@
-<?
+<?php
 
 $dblink = mysql_connect ("tntradio.ba", "tntradio_player", "?w+87b)_~3uk");
 

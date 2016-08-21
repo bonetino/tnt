@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
  <Event status="happened">
-  <Song title="Lei lei">
-   <Artist name="Colonia" ID="336336">
+  <Song title="Godine prolaze">
+   <Artist name="Bajaga i instruktori" ID="336618">
    </Artist>
-    <Info StartTime="13:37:39" JazlerID="16983" PlayListerID="" />
+    <Info StartTime="21:46:43" JazlerID="11843" PlayListerID="" />
   </Song>
-  <Song title="Cant get you out of my head">
-   <Artist name="Kylie Minogue" ID="335807">
+  <Song title="Pakleni vozaci">
+   <Artist name="Atomsko skloniste" ID="335689">
    </Artist>
-    <Info StartTime="13:46:27" JazlerID="15207" PlayListerID="" />
+    <Info StartTime="21:50:47" JazlerID="10403" PlayListerID="" />
   </Song>
-  <Song title="TNT ID 8">
-   <Artist name="TNT ID 8" ID="337568">
+  <Song title="VIKEND ID 2">
+   <Artist name="VIKEND ID 2" ID="337571">
    </Artist>
-    <Info StartTime="13:50:03" JazlerID="13010" PlayListerID="" />
+    <Info StartTime="21:53:47" JazlerID="13013" PlayListerID="" />
   </Song>
-  <Song title="Blue caffe">
-   <Artist name="Chris Rea" ID="335771">
+  <Song title="U se na se poda se feat Kandzija">
+   <Artist name="S.a.r.s." ID="336297">
    </Artist>
-    <Info StartTime="13:50:05" JazlerID="13703" PlayListerID="" />
+    <Info StartTime="21:53:49" JazlerID="16919" PlayListerID="" />
   </Song>
-  <Song title="OPUSTENO ID 4">
-   <Artist name="OPUSTENO ID 4" ID="337526">
+  <Song title="TNT ID 5">
+   <Artist name="TNT ID 5" ID="337565">
    </Artist>
-    <Info StartTime="13:53:51" JazlerID="14732" PlayListerID="" />
+    <Info StartTime="21:57:50" JazlerID="13007" PlayListerID="" />
   </Song>
  </Event>
 

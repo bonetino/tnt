@@ -1,4 +1,9 @@
- 
+<?php
+	include "inc/functions.inc.php";
+	include "admin/conf.inc.php";
+	include "functions.php";
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -98,8 +103,6 @@
 						</div>
 				</div>
 			</div>
-		
-		
 		<section id="player-container" class="playAll">
     <div class="container">
       <div class="row">
@@ -107,7 +110,7 @@
 	      	<div id="emisija">
             <div id="slika-emisije">
               <a href="#" class="crop">
-                <img class="emisija-thumb" src="images/vecer.jpg">
+                <img src="<?php echo $slika;?>">
               </a>
             </div>
             <span id="naslov-emisije-lijevo">
@@ -115,13 +118,14 @@
               U eteru
             </span>
             <div class="trenutno">
-  					Nedjeljom popodne
+  					<?php echo $emisija; ?>
             </div>
           </div>
 	      </div>
 
 	      <div class="play-btn">
-					<a href="http://totalnifmsplit.hr/slusaj-uzivo/" onclick="window.open(this.href, 'TotalniFM Player','top=200,left=500,width=420,height=665,toolbar=0,resizable=1'); return false;"></a>
+					<a href="eter/player.php" onclick="window.open(
+					this.href, 'Tnt Radio FM Player','top=200,left=500,width=620,height=665,toolbar=0,resizable=1'); return false;"></a>
 				</div>
 
 	      <div class="col-md-6 col-xs-6">
@@ -132,7 +136,8 @@
             </span>
             <div class="trenutno-svira-box">
               <div class="naslov-pjesme trenutno">
-                <span>Edo Maajka-Znaš me</span>
+                <span><?php echo $artist; ?>-<?php echo $song; ?></span>
+
               </div>
             </div>
           </div>
@@ -153,6 +158,7 @@
 						<div class="col-md-8 col-xs-12 col-lg-8">
 							<div class="onama-top">
 								<p>Ovo je neki uvod u web omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</p>
+								
 							</div>
 						</div>
 						</div>
@@ -294,8 +300,10 @@
 			<div class="container">
 				<div class="row text-center animate-box">
 					<div class="col-md-4 col-sm-12 store">
-						<a class="btn btn-primary left" onClick="javascript:startPlayer();" href="#">Slušaj online</a><span> ili preuzmi aplikaciju iz</span>
-					</div>3
+					<a class="btn btn-primary left" href="eter/player.php" onclick="window.open(
+					this.href, 'Tnt Radio FM Player','top=200,left=500,width=620,height=665,toolbar=0,resizable=1'); return false;">Slušaj online</a>
+						<span> ili preuzmi aplikaciju iz</span>
+					</div>
 
 
 					<div class="col-md-4 col-xs-12 imagem">
@@ -410,14 +418,7 @@
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 	<script src="js/get_data.js"></script>
-	
 
 	</body>
 </html>
-<?
 
-dbdisconnect($dblink);
-
-dbdisconnect($dblink_xmltv);
-
-?>

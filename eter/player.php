@@ -419,7 +419,9 @@ $(document).ready(function(){
 				  jwplayer('player').stop();}
 			}
 		});
-		
+		</script>
+      
+    </td>
   </tr>
 </table>
 </body>

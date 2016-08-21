@@ -15,8 +15,32 @@ function getEter()
 	var slika = "";
 	var start = "";
 	var end = "";
+
+	<script>
+
+	$(document).ready(function() {
+		var data = "[{"artist":"Regata","song":"Andrea","id":"regata_-_andrea","ocjena":"5","glasao":"0","image":"default.png","history":["Tnt Id 7 - Tnt Id 7","Nina Badric - Dan D","Tony Cetinski - Opet Si Pobijedila","Vikend Id 1 - Vikend Id 1","Zdravko Colic - Ne Mogu Biti Tvoj"],"time":["22:23:30","22:18:24","22:13:35","22:13:33","22:08:51"],"emisija":"Najbolji muziÄŤÂŤki mix","slika":"emisije/default2.png","start":"02:00","end":"23:59"}]";
+
+		var obj = $.parseJSON(data);
+
+		$.each(obj, function() {
+
+		$('.eterimage').attr('src', image);
+		$('.eterartist').html(artist);
+		$('.etersong').html(song);
+		$('.eterhistory').html(list);
+		
+		$('.eterslika').attr('src', slika);
+		$('.eteremisija').html(emisija);
+		$('.eteremisijatime').html(start+' do '+end);
+
+		}
+	}
+</script>
+
+
 	
-	$.getJSON("getdata.php",function(res){
+	$.getJSON("http://tntradio.ba/eter/getdata.php",function(res){
 		artist = res.artist;
 		song = res.song;
 		image = res.image;

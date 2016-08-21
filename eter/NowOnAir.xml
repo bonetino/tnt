@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Schedule System="Jazler">
- <Event status="happening" startTime="13:53:54" eventType="song">
+ <Event status="happening" startTime="21:57:52" eventType="song">
     <Announcement Display="Trenutno svira:"/>
-  <Song title="Sto dana u mesecu">
-   <Artist name="Tap 011">
+  <Song title="Make Me feat G">
+   <Artist name="Britney Spears">
    </Artist>
-    <Jazler ID="16489"/>
+    <Jazler ID="17111"/>
     <PlayLister ID=""/>
-    <Media runTime="00:04:15"/>
-    <Expire Time="13:58:08"/>
+    <Media runTime="00:03:39"/>
+    <Expire Time="22:01:31"/>
   </Song>
  </Event>
 </Schedule>
