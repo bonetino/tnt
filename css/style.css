@@ -238,6 +238,26 @@ h6 {
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
 }
+.play-btn {
+  position: absolute;
+  top: 60px;
+  right: 600px;
+}
+.play-btn a {
+    margin-top: 18px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: #aa0707;
+    border-radius: 50%;
+    background-image: url('../images/btn-scroll.png');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    border: 8px solid #aa0707;
+}
 
 .nagrade-box {
   display: block;
@@ -646,9 +666,9 @@ ol,ul {
 }
 
 .naslov-pjesme {
-  position: absolute;
-  top: 30px;
-  margin: 40px 0 0 50px
+  position: relative;
+  bottom: 10px;
+  left: 40px
 }
 
 #playb {
@@ -1528,14 +1548,19 @@ figure {
     left: -50px
   }
   #naslov-emisije {
-    position: relative;
-    bottom: 80px;
-    right: 90px
+    position: relative; 
   }
+  
   #trenutno-svira {
     position: absolute;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     right: -70px;
+  }
+  .play-btn {
+    position: absolute; 
+    left: 40%;
+    bottom: 20px;
+    right: 30px
   }
   .play {
     position: absolute;
@@ -1544,20 +1569,31 @@ figure {
   }
   #naslov-emisije-lijevo {
     position: relative;
-    font-size: 10px;
+    font-size: 13px;
+    bottom: 90px;
+    right: 70px
   }
   #naslov-emisije-desno {
     position: relative;
-    font-size: 10px;
+    font-size: 13px;
+    bottom: 110px;
+    right: 80px
+  }
+  .naslov-pjesme span {
+    position: relative;
+    top: 0px;
+    right: 40px;
+
   }
   .trenutno {
     position: absolute;
     font-size: 10px;
-    top: -20px;
+    top: -30px;
+    left: 10px
   }
   #player-container {
     background-image: url("../images/radio-small.svg");
-    padding: 135px 0 15px 0;
+    padding: 160px 0 15px 0;
   }
   .destinations-form {
     position: relative;

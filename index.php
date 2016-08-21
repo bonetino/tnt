@@ -103,9 +103,8 @@
 		<section id="player-container" class="playAll">
     <div class="container">
       <div class="row">
-
-        <div class="col-md-6 col-xs-6">
-          <div id="emisija">
+	      <div class="col-md-6 col-xs-6">
+	      	<div id="emisija">
             <div id="slika-emisije">
               <a href="#" class="crop">
                 <img class="emisija-thumb" src="images/vecer.jpg">
@@ -113,31 +112,31 @@
             </div>
             <span id="naslov-emisije-lijevo">
               <i class="fa fa-microphone"></i>
-              Trenutno
+              U eteru
             </span>
             <div class="trenutno">
   					Nedjeljom popodne
             </div>
           </div>
-        </div>
+	      </div>
 
+	      <div class="play-btn">
+					<a href="http://totalnifmsplit.hr/slusaj-uzivo/" onclick="window.open(this.href, 'TotalniFM Player','top=200,left=500,width=420,height=665,toolbar=0,resizable=1'); return false;"></a>
+				</div>
 
-        <div class="col-md-6 col-xs-6">
-          <div id="trenutno-svira">
+	      <div class="col-md-6 col-xs-6">
+	      	<div id="trenutno-svira">
             <span id="naslov-emisije-desno">
               <i class="fa fa-headphones"></i>
-              TRENUTNO SVIRA
+              Trenutno svira
             </span>
             <div class="trenutno-svira-box">
-              <a href="#"><img class="play" src="images/play-button.svg"></a>
               <div class="naslov-pjesme trenutno">
-                <span>
-                Edo Maajka<br>
-                Znaš me
+                <span>Edo Maajka-Znaš me</span>
               </div>
             </div>
           </div>
-        </div>
+	      </div>
       </div>
     </div>
   </section>
